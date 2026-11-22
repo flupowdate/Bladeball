@@ -1,14 +1,3 @@
--- OXY SuperPeak V22 HOTFIX: single-dispatch arbitration, global post-parry quiet window, and startup remote-scan narrowing.
--- V22 addresses repeated parry dispatches and avoidable startup work; it does not alter or disable VFX/SFX.
--- OXY SuperPeak V15: event-driven multi-ball cache, weak-key per-ball state,
--- V18 TITAN-PEAK: deduplicated ball lifecycle binding and guarded physics-child reads.
--- V19 OMEGA-PEAK: explicit connection teardown, bind-generation guards, and stale async-bind rejection.
--- V20 APEX-OMEGA: per-ball aerodynamic timing isolation and guarded Tornado attribute sampling.
--- V21 NOVA-APEX: event-maintained slash-VFX cache, consolidated ball lifecycle listeners, and safer dispatch bookkeeping.
--- VFX/SFX preservation remains strict: no emitters, trails, beams, particles, decals, textures, parts, or audio are modified.
--- V21 removes repeated slash-child discovery and duplicate ball hierarchy listeners; VFX/SFX assets remain untouched.
--- conservative dispatch gating, predictive relative-motion checks, VFX/SFX preservation.
--- No VFX/SFX instance properties, parents, emitters, trails, beams, or audio are modified.
 local controlValueA = 3238
 local controlValueB = 1420
 local controlFlagA = true
